@@ -30,7 +30,7 @@ app.use(flash());
     
 //PASSPORT CONFIGURATIOn
 app.use(require("express-session")({
-    secret:"Pineapples are my enemy",
+    secret:"The code goes here",
     resave: false,
     saveUninitialized: false
 }));
